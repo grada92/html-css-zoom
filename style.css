@@ -36,8 +36,13 @@ display: flex;
 .profilo {
 border: 2px red solid;
 margin: 20px;
-width: calc(100% / 7 - 60px);
+width: calc(100% / 7 - 20px);
 height: 140px;
 justify-content: center;
+}
+
+.profilo .img-profile {
+
+width: 100%;
 }
 
