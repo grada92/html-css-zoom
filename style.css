@@ -67,10 +67,9 @@ footer {
 
 .iconmenu {
 color: white;
-font-size: 15px;
-justify-content: space-evenly;
-padding: 10px 20px;
-margin: 0 -200px;
+font-size: 10px;
+justify-content: space-between;
+padding: 10px 100px;
 width: 100%;
 }
 
@@ -105,8 +104,19 @@ margin: 0 20px;
 
 .columnbutton {
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
+.columnbutton .fa-solid {
+    font-size: 30px;
+}
+
+.greenicon  {
+
+color: green;
+}
 
 
 /*  <div class="flex nav-invite">
