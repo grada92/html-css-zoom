@@ -7,6 +7,11 @@ box-sizing: border-box;
 }
 
 
+/* Content */
+
+
+
+
 main {
     font-family: sans-serif;
     background-color: black;
@@ -15,13 +20,27 @@ main {
 
 header {
     height: 5vh;
-    background-color: white;
+    background-color: black;
 }
 
 .flex {
 
 display: flex;
 }
+
+
+.headerview {
+    justify-content: flex-end;
+    padding: 7px;
+}
+
+button {
+    background-color:#58544a;
+    color: white;
+    padding: 3px;
+    border-radius: 5px;
+}
+
 
 .container {
     width: 100%;
@@ -132,4 +151,6 @@ color: green;
     justify-content: center;
     align-items: center;
 }
+
+
 
