@@ -26,7 +26,7 @@ display: flex;
 .container {
     width: 100%;
     background-color: black;
-    height: 80vh;
+    height: 85vh;
     justify-content: center;
     padding: 10px 20px;
     flex-wrap: wrap;
@@ -62,14 +62,14 @@ width: 100%;
 
 footer {
     background-color: #222222;
-    height: 15vh;
+    height: 10vh;
 }
 
 .iconmenu {
 color: white;
 font-size: 10px;
 justify-content: space-between;
-padding: 10px 100px;
+padding: 8px 100px;
 width: 100%;
 }
 
@@ -85,7 +85,7 @@ margin: 0 20px;
 background-color: aqua;
 height: 50px;
 width: 90px;
-font-size: 15px;
+font-size: 18px;
 color: red;
 justify-content: center;
 align-items: center;
@@ -118,20 +118,11 @@ margin: 0 20px;
 color: green;
 }
 
-
-/*  <div class="flex nav-invite">
-
-                <i class="fa-solid fa-user-plus"></i>
-                <i class="fa-solid fa-user-group"></i>
-                <i class="fa-solid fa-square-poll-vertical"></i>
-                <i class="fa-solid fa-share-from-square"></i>
-                <i class="fa-solid fa-comment"></i>
-                <i class="fa-solid fa-record-vinyl"></i>
-                <i class="fa-solid fa-table-cells-large"></i>
-                <i class="fa-solid fa-ellipsis"></i>
-
-    
-            </div>
-
-            
+.closemeeting {
+    color: red;
+    background-color:#4a4a4a;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
 
