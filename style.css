@@ -17,6 +17,8 @@ main {
     background-color: black;
 }
 
+/* HEADER */
+
 
 header {
     height: 5vh;
@@ -40,6 +42,8 @@ button {
     padding: 3px;
     border-radius: 5px;
 }
+
+/* /HEADER */
 
 
 .container {
