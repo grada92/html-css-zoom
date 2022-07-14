@@ -35,14 +35,26 @@ display: flex;
 
 .profilo {
 border: 2px red solid;
-margin: 20px;
+margin: 6px 2px;
 width: calc(100% / 7 - 20px);
 height: 140px;
 justify-content: center;
+position: relative;
 }
 
 .profilo .img-profile {
 
 width: 100%;
 }
+
+.pincopallo {
+    background-color: aqua;
+    position: absolute;
+    color: white;
+    bottom: 15px;
+    left: 0px;
+    height: 20px;
+    width: 80px;
+}
+
 
