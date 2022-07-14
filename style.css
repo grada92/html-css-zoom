@@ -49,6 +49,7 @@ width: 100%;
 
 .pincopallo {
     background-color: #5c6c78;
+    opacity: 0.9;
     position: absolute;
     color: white;
     bottom: 15px;
