@@ -26,7 +26,7 @@ display: flex;
 .container {
     width: 100%;
     background-color: black;
-    height: 85vh;
+    height: 80vh;
     justify-content: center;
     padding: 10px 20px;
     flex-wrap: wrap;
@@ -62,15 +62,16 @@ width: 100%;
 
 footer {
     background-color: #222222;
-    height: 10vh;
+    height: 15vh;
 }
 
 .iconmenu {
 color: white;
-font-size: 30px;
-justify-content: space-between;
+font-size: 15px;
+justify-content: space-evenly;
 padding: 10px 20px;
-margin: 0 50px;
+margin: 0 -200px;
+width: 100%;
 }
 
 .nav-mic .fa-solid {
@@ -79,7 +80,48 @@ margin: 0 20px;
 
 .nav-invite .fa-solid {
 margin: 0 20px;
-
 }
 
+.nav-close {
+background-color: aqua;
+height: 50px;
+width: 90px;
+font-size: 15px;
+color: red;
+justify-content: center;
+align-items: center;
+height: 60px;
+margin: 0 30px;
+}
+
+.footermenu span {
+margin: 0 20px; 
+}
+
+.footer-invite span {
+margin: 0 20px; 
+}
+
+
+.columnbutton {
+    flex-direction: column;
+}
+
+
+
+/*  <div class="flex nav-invite">
+
+                <i class="fa-solid fa-user-plus"></i>
+                <i class="fa-solid fa-user-group"></i>
+                <i class="fa-solid fa-square-poll-vertical"></i>
+                <i class="fa-solid fa-share-from-square"></i>
+                <i class="fa-solid fa-comment"></i>
+                <i class="fa-solid fa-record-vinyl"></i>
+                <i class="fa-solid fa-table-cells-large"></i>
+                <i class="fa-solid fa-ellipsis"></i>
+
+    
+            </div>
+
+            
 
