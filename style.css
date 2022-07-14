@@ -48,13 +48,16 @@ width: 100%;
 }
 
 .pincopallo {
-    background-color: aqua;
+    background-color: #5c6c78;
     position: absolute;
     color: white;
     bottom: 15px;
     left: 0px;
     height: 20px;
     width: 80px;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
 }
 
 
