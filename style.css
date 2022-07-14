@@ -60,4 +60,26 @@ width: 100%;
     font-size: 12px;
 }
 
+footer {
+    background-color: #222222;
+    height: 10vh;
+}
+
+.iconmenu {
+color: white;
+font-size: 30px;
+justify-content: space-between;
+padding: 10px 20px;
+margin: 0 50px;
+}
+
+.nav-mic .fa-solid {
+margin: 0 20px;
+}
+
+.nav-invite .fa-solid {
+margin: 0 20px;
+
+}
+
 
