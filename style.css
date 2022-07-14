@@ -80,6 +80,10 @@ width: 100%;
     font-size: 12px;
 }
 
+
+/* FOOTER */
+
+
 footer {
     background-color: #222222;
     height: 10vh;
@@ -152,5 +156,5 @@ color: green;
     align-items: center;
 }
 
-
+/* /FOOTER */
 
